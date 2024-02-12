@@ -11,7 +11,7 @@
 }
 /* Header 1  */
 .container{
-    padding: 10px 0px;
+    padding: 11px 0px;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@
     min-width: fit-content;
     width: 150px;
     border-right: 1px solid rgb(192, 190, 190);
+    position: relative;
 }
 .fa-user{
     font-size: 24px;
@@ -40,10 +41,55 @@
     font-size: 18px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 5px;
+    padding-left: 24px;
+    
+}
+.block2::before{
+    content: ' Z';
+    background-image: url(/asset/profile-ico.svg);
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    color: transparent;
+    top: 0px;
 }
 .block3 ul{
     display: flex;
     gap: 40px;
 }
+.block4{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.block4 input{
+    background-color: transparent;
+    /* background-color: rgb(218, 216, 216); */
+    border: none;
+    padding: 12px;
+    padding-left: 0px;
+    background-color: rgb(218, 216, 216);
+    font-family: "royal";
+    color: black;
+    font-weight: bolder;
+    font-size: 12px;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    font-family: "royal";
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.block4 span{
+    padding: 12px 12px 7px 12px;
+    background-color:rgb(218, 216, 216);
+}
+
+/* ------------- */
