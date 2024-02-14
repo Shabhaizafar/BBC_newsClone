@@ -26,6 +26,7 @@
 }
 .block1{
     /* background-color: red; */
+    /* flex-grow: .5; */
 }
 .block2{
     /* background-color: blue; */
@@ -33,6 +34,7 @@
     width: 150px;
     border-right: 1px solid rgb(192, 190, 190);
     position: relative;
+    flex-grow: .5;
 }
 .fa-user{
     font-size: 24px;
@@ -93,3 +95,30 @@ input:focus{
 }
 
 /* ------------- */
+.container-2{
+    background-color: #B80000;
+    padding: 12px 0px 0px 4%;
+}
+.container-2 a{
+    color: white;   
+    font-family: 'royal';
+    border-right: 1px solid rgb(141, 141, 141);
+    padding: 0px 10px;
+}
+.container-2 ul{
+    display: flex;
+}
+.container-2 ul li{
+    padding: 10px 0px;
+    border-bottom: 4px solid transparent;
+}
+.container-2 ul li:last-child a{
+    border: none;
+}
+.container-2 ul li:hover{
+    border-bottom: 4px solid white;
+}
+.container-2 ul li:first-child{
+    border-bottom: 4px solid white;
+    
+}
